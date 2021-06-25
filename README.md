@@ -1,5 +1,6 @@
 # DaggerHiltPart1
 
+#### Todo 1
 ```gradle
 buildscript {
     repositories {
@@ -16,7 +17,7 @@ buildscript {
 }
 ```
 
-
+#### Todo 2
 ```gradle
 //todo 2
 apply plugin: 'com.android.application'
@@ -32,8 +33,8 @@ dependencies {
 }
 ```
 
-
-```gradle
+#### Todo 3
+```java
 //todo 3
 @HiltAndroidApp
 public final class MyApp extends MultiDexApplication {}
@@ -50,8 +51,8 @@ public final class MyApp extends MultiDexApplication {}
 </manifest>
 ```
 
-
-```gradle
+#### Todo 4
+```java
 //todo 4
 @Module
 @InstallIn(ApplicationComponent.class)
@@ -63,8 +64,8 @@ public final class AppModule {
 }
 ```
 
-
-```gradle
+#### Todo 5
+```java
 //todo 5
 @AndroidEntryPoint
 public class MainActivity extends AppCompatActivity {
